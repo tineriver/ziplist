@@ -1,15 +1,18 @@
 {
-  "name": "ESLintSample",
-  "version": "1.0.0",
-  "description": "Sample package.json for eslint",
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.20.0"
-  },
-  "dependencies": {},
+  "name": " ",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": "",
+  "license": "",
+  "author": "",
   "scripts": {
-    "lint": "eslint --ext .js ."
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "devDependencies": {
+    "underscore": "^1.11.0",
+    "parcel-bundler": "^1.12.4"
+  }
 }
